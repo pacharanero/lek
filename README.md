@@ -1,12 +1,14 @@
 # lek
 
 **lek** is a tool for quickly switching work contexts, inspired by the `workon` command from Python's virtualenvwrapper.
+It's my idea of something that should exist. I did exhaustively Google for it because frankly I'm amazed it doesn't already exist. (Please do let me know if you think it does already exist. #allcodehasalreadybeenwritten)
 
 `lek myproject`
 
+* reads your your **~/.Lekfile** and sets you up how you like to work
 * creates a new workspace in your desktop environment (Linux Mint only at present)
 * switches to that workspace
-* opens a new browser window, and in it, a list of browser tabs as specified in your ~/.Lekfile
+* opens a new browser window, and in it, a list of URLs in browser tabs as specified in Lekfile (maybe documentation, GitHub, forum, Gitter, Trello, `localhost:4000`, `localhost:8080`, whatever...)
 * opens your terminal emulator at a specific directory(ies)
 * starts any command line processes you need (`rails s`, `rails c`, `npm start`, etc) in separate terminal tabs
 * Opens your text editor with a specific project folder/folders 
