@@ -8,8 +8,11 @@
 * switches to that workspace
 * opens a new browser window, and in it, a list of browser tabs as specified in your ~/.Lekfile
 * opens your terminal emulator at a specific directory(ies)
-* Opens your text editor with a specific project folders 
+* starts any command line processes you need (`rails s`, `rails c`, `npm start`, etc) in separate terminal tabs
+* Opens your text editor with a specific project folder/folders 
 * executes any other commands you need (eg `docker run <container>`, `vagrant up`, etc)
+* starts your strong Brownian Motion producer (say a nice hot cup of tea) - subject to REST IoT Kettle availability
+* then makes a pleasant beep, maybe
 
 ## Roadmap
 * There will be a roadmap. That, for now, is the roadmap.
