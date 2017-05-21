@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    beep (0.0.1)
+    pkg-config (1.2.0)
+    ruby-wmctrl (0.0.6)
+      pkg-config
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  beep
+  ruby-wmctrl
+
+BUNDLED WITH
+   1.14.6
