@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
 require 'lek'
 
-data = YAML.load_file('../examples/test.yml')
-
-Lek::create_new_workspace
-Lek::open_browsers(data["urls"])
-Lek::open_terminals(data["terminals"])
+data = YAML.load_file('examples/test.yml')
+# TODO: need to be able to pass in a file via command line argument
+context = Lek::Context.new
+context.create_new_workspace
+context.open_browsers(data["urls"])
+context.open_terminals(data["terminals"])
 # TODO needs to move terminal to a specific place 
-Lek::open_editor(data["editors"])
+context.open_editor(data["editors"])
 # TODO needs to maximise the editor window
