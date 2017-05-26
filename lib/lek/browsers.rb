@@ -2,12 +2,7 @@
 ###### as specified in Lekfile (maybe documentation, GitHub, forum, ######
 ###### Gitter, Trello, localhost:4000, localhost:8080, whatever...) ######
 
-def open_browsers
-  url_list = [
-    'https://github.com/endeavourhealth',
-    'https://angular.io/docs/ts/latest/api/',
-    'https://linux.die.net/man/1/wmctrl'
-    ]
+def open_browsers(url_list)
 
   # opens new window with empty tab for searches
   system 'google-chrome --new-window'

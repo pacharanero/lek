@@ -1,0 +1,21 @@
+# list URLs here which will be opened in tabs in chrome
+urls:
+  - https://github.com/endeavourhealth
+  - https://angular.io/docs/ts/latest/api/
+  - https://linux.die.net/man/1/wmctrl
+
+# list terminals here, which will be opened in tabs in your terminal
+# - path: <file path to be opened>
+# - command: <command to execute in the terminal>
+terminals:
+  - path: /home/marcus/code/endeavour/EDS
+    command: 'nano new.rb'
+  - path: /home/marcus/code/endeavour/
+    command:
+  - path: /home/marcus/code/
+    command:
+
+# list text editor project folders you want to open here
+editors:
+  - /home/marcus/code/endeavour/EDS/
+  - /home/marcus/code/nhsbuntu/www.nhsbuntu.org

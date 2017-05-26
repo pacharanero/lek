@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'lek'
+
+data = YAML.load_file('../examples/test.yml')
+
+Lek::create_new_workspace
+Lek::open_browsers(data["urls"])
+Lek::open_terminals(data["terminals"])
+# TODO needs to move terminal to a specific place 
+Lek::open_editor(data["editors"])
+# TODO needs to maximise the editor window
