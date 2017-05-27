@@ -1,0 +1,37 @@
+---
+# lek template file
+# NB: YAML syntax is sensitive to whitespace and indentation!
+
+##### URLS IN BROWSER TABS #####
+# list URLs here which will be opened in tabs in chrome
+# multiple URLS should be on a line each, preceded by a dash and a space
+# for example:
+#      urls: 
+#      - https://stackoverflow.com/
+#      - https://rubygems.org/
+urls:
+  - 
+
+##### TERMINALS & COMMANDS #####
+# list terminals here, which will be opened in tabs in your terminal
+# - path: <file path to be opened>
+# - command: < command to execute in the terminal>
+terminals:
+  - path: 
+    command: 
+  - path: 
+    command:
+  - path: 
+    command:
+
+##### TEXT EDITOR & PROJECT FOLDERS #####
+# list text editor project folders you want to open here
+# use absolute paths please :-)
+# for example:
+# editors: 
+# - /home/username/code/mynewproject/
+editors:
+  - 
+
+
+...

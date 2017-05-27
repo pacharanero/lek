@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'lek'
 
-data = YAML.load_file('examples/test.yml')
+data = YAML.load_file("examples/#{ARGV[0]}.yml")
 # TODO: need to be able to pass in a file via command line argument
 context = Lek::Context.new
 

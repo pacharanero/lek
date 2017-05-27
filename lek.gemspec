@@ -5,12 +5,12 @@ require 'lek/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "lek"
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ["Marcus Baw"]
   spec.email         = ["marcusbaw@gmail.com"]
 
-  spec.summary       = %q{a simple gem for switching work contexts.}
-  spec.description   = %q{a simple gem for switching work contexts. Opens creates a new Workspace, opens a list of browser tabs, terminal tabs, and text editor project folders for you.}
+  spec.summary       = %q{a simple gem for switching development work contexts.}
+  spec.description   = %q{a simple gem for switching work contexts. Creates a new Workspace, opens a list of browser tabs, terminal tabs, and text editor project folders for you.}
   spec.homepage      = "https://github.com/pacharanero/lek"
   spec.license       = "MIT"
 
