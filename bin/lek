@@ -4,6 +4,7 @@ require 'lek'
 data = YAML.load_file('examples/test.yml')
 # TODO: need to be able to pass in a file via command line argument
 context = Lek::Context.new
+
 context.create_new_workspace
 context.open_browsers(data["urls"])
 context.open_terminals(data["terminals"])
